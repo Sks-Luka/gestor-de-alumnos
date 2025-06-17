@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestor de Alumnos</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Gestor de Alumnos</h1>
+            <form id="form-alumno">
+                <input type="hidden" id="id">
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Nombre"
+                    required
+                >
+                <input
+                    type="text"
+                    id="apellido"
+                    placeholder="Apellido"
+                    required
+                >
+                <input
+                    type="email"
+                    id="correo"
+                    placeholder="Correo electrónico"
+                    required
+                >
+                <input
+                    type="text"
+                    id="carrera"
+                    placeholder="Carrera"
+                    required
+                >
+                <button type="submit">Guardar</button>
+            </form>
+            <hr>
+            <div>
+                <input type="text" id="filtro" placeholder="Buscar por nombre o carrera...">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo</th>
+                        <th>Carrera</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-alumnos"></tbody>
+            </table>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #0077cc;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+form input,
+form button {
+  padding: 10px;
+  font-size: 1em;
+}
+
+form input {
+  flex: 1 1 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005fa3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  margin-right: 5px;
+  padding: 6px 10px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+input#filtro {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
